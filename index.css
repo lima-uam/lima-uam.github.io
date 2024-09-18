@@ -47,31 +47,43 @@ h6 {
     font-style: normal;
 }
 
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+
+    padding: 24px 0 0 0;
+
+    /*background: linear-gradient(70deg, #2fac2a 0%, #fffaf5 15%);*/
+    background:
+        radial-gradient(circle at top left, #c0e8a5 40%, transparent calc(40% + 1px)),
+        radial-gradient(circle at bottom right, #ddff9f 40%, transparent calc(40% + 1px));
+}
+
 #header {
     width: 100vw;
     max-width: 700px;
-    margin: 12px auto 0px auto;
+    margin: 12px auto 12px auto;
 
     text-align: center;
 }
 
 #header-logo {
     width: 80%;
-    margin: 12px auto 12px auto;
+    margin: 24px auto 24px auto;
 }
 
 #header-title {
-    margin: auto;
+    margin: 36px auto 36px auto;
     max-width: 80%;
 
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
-    margin: 0px auto 12px auto;
+    margin: 12px auto 12px auto;
 
     text-align: center;
 }
@@ -80,6 +92,8 @@ h6 {
     width: 100vw;
     margin: auto;
 
-    font-weight: 300;
+    color: #252525;
+
+    font-weight: 400;
     font-size: 12px;
 }
