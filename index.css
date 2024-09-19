@@ -53,10 +53,9 @@ body {
 
     padding: 24px 0 0 0;
 
-    /*background: linear-gradient(70deg, #2fac2a 0%, #fffaf5 15%);*/
     background:
         radial-gradient(circle at top left, #c0e8a5 40%, transparent calc(40% + 1px)),
-        radial-gradient(circle at bottom right, #ddff9f 40%, transparent calc(40% + 1px));
+        radial-gradient(circle at bottom right, #ddff9f 40%, #fffafa calc(40% + 1px));
 }
 
 #header {
